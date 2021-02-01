@@ -1,0 +1,5 @@
+{
+    "BaseUrl": "http://api.openweathermap.org/data/2.5/group?id=",
+    "AppId": "&units=metric&appid=9658f3d9c538059af0b6516b619639b2"
+
+}
