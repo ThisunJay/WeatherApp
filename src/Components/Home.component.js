@@ -135,6 +135,10 @@ function Welcome() {
             <div className="lastUpdated">
                 <p>Last updated: {moment(weatherData.data && weatherData.data.lastUpdated ? weatherData.data.lastUpdated : new Date()).format("DD/MM/YYYY hh:mm:ss")}</p>
             </div>
+
+            <div className="cloud" style={{margin: "4px", marginLeft: "8px", marginTop: "10px"}}>
+                <p>The data displayed here is got <br/> from the open weather API.</p>
+            </div>
         </div>
     </div>
 
